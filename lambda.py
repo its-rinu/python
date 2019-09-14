@@ -4,7 +4,7 @@ import logging
 import requests
 import six
 import random
-import json
+
 
 from ask_sdk_core.skill_builder import SkillBuilder
 from ask_sdk_core.handler_input import HandlerInput
@@ -23,6 +23,7 @@ from ask_sdk_model.slu.entityresolution import StatusCode
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
 
+import json
 
 # Request Handler classes
 class LaunchRequestHandler(AbstractRequestHandler):
